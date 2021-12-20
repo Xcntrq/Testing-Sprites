@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7153968667580509266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3642948595255461408}
+  - component: {fileID: 1790819768464695778}
+  m_Layer: 0
+  m_Name: pfTreeEvergreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3642948595255461408
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7153968667580509266}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1790819768464695778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7153968667580509266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e906c9465d2202c4fb9534517c785a18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_trunks:
+  - {fileID: 2932110569366637791, guid: 2a8025d3af6aad048b2997bbf21bb76b, type: 3}
+  - {fileID: 5785501091759187658, guid: 8c7c30ae2147cc14ba92c17fcb33719d, type: 3}
+  m_level1:
+  - {fileID: 481555211998159997, guid: 6ca86f4a3aaea9f4fa2fde8f58205b45, type: 3}
+  - {fileID: 8778156764801120304, guid: 00cec7b5bcd23ac49bd2fd4355d084c2, type: 3}
+  m_level2:
+  - {fileID: 6857789042539816583, guid: f1a7a6b2b0adfd84ab157e4aff4e2ee7, type: 3}
+  - {fileID: 6290434834908493610, guid: 848d4f0d68ffb0b44a102b1505a5de2c, type: 3}
+  m_level3:
+  - {fileID: 8102666263426063560, guid: caf734b14eeebbd459d16da716b6f3bd, type: 3}
+  - {fileID: 4942255376324706784, guid: 067255a013ec8a848a8941711be012e5, type: 3}
+  m_level4:
+  - {fileID: 4481711030857883141, guid: f231ef7d7c44e104a83e6e4b548a7561, type: 3}
+  - {fileID: 1496838920205681668, guid: 774eea4c17f138d42955893ccba1d500, type: 3}
+  m_trunkColors:
+  - {r: 0.627451, g: 0.3137255, b: 0.078431375, a: 1}
+  - {r: 0.47058824, g: 0.3137255, b: 0.077874675, a: 1}
+  - {r: 0.5471698, g: 0.27450982, b: 0.038714837, a: 1}
+  m_leavesColors:
+  - {r: 0.07763788, g: 0.47058824, b: 0, a: 1}
+  - {r: 0.23529412, g: 0.627451, b: 0.039215688, a: 1}
+  - {r: 0.15686275, g: 0.54901963, b: 0.078431375, a: 1}
